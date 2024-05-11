@@ -15,7 +15,7 @@ const App = () => {
 
       <Routes>
         <Route
-          path="/"
+          path="/Desafio_Natural_Pic"
           element={<Home />}
         />
         <Route
