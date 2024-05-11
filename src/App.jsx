@@ -4,9 +4,9 @@ import 'bootstrap/dist/css/bootstrap.css'
 // import 'bootstrap/dist/js/bootstrap.bundle.min'
 import Favorites from "./views/Favorites";
 import Home from "./views/Home";
+import NotFound from "./views/NotFound"
 
-
-const PHOTO_URL = "/photos.json";
+// const PHOTO_URL = "/photos.json";
 
 const App = () => {
   return (
@@ -22,6 +22,7 @@ const App = () => {
           path="/favoritos"
           element={<Favorites />}
         />
+        <Route path="*" element={<NotFound />}></Route>
       </Routes>
     </div>
   );
