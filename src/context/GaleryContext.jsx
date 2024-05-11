@@ -1,7 +1,7 @@
 import { createContext, useState , useEffect} from "react";
-import { createClient } from 'pexels';
+// import { createClient } from 'pexels';
 
-const client = createClient('eE7XAq4Q8GbpI9ieZlfTbq34BNDqtHt0pGZKJTYRLuNmU3t3FwgTbFCL');
+// const client = createClient('eE7XAq4Q8GbpI9ieZlfTbq34BNDqtHt0pGZKJTYRLuNmU3t3FwgTbFCL');
 
 // All requests made with the client will be authenticated
 
